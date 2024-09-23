@@ -10,3 +10,10 @@ Sample Input:
 Sample Output:
 Trendy Number
 '''
+number=input()
+len_number=len(number)
+temp=int(number[1])
+if len_number==3 and temp%3==0:
+    print('Trendy Number')
+else:
+    print('Not a Trendy Number')
