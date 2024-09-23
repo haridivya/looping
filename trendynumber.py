@@ -12,8 +12,11 @@ Trendy Number
 '''
 number=input()
 len_number=len(number)
-temp=int(number[1])
-if len_number==3 and temp%3==0:
-    print('Trendy Number')
+if number.isdigit() and len_number==3:
+    temp=int(number[1])
+    if temp%3==0:
+        print('Trendy number')
+    else:
+        print('Not a Trendy Number')
 else:
     print('Not a Trendy Number')
