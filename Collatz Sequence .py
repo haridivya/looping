@@ -22,18 +22,14 @@ Sample Output:
 5
 '''
 n=int(input())
-i=0
 no_step=0
-while i==0:
+while n!=1:
     if n%2==0:
         n=n//2
         print(n)
-        no_step+=1
-        if n==1:
-            i=1
     else:
         n=3*n+1
         print(n)
-        no_step+=1
+    no_step+=1
 print(no_step)
 
