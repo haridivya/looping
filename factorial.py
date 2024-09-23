@@ -10,3 +10,15 @@ Sample Input:
 Sample Output:
 Yes
 '''
+factorial=int(input())
+fact=1
+i=1
+while fact<factorial:
+    i+=1
+    fact*=i
+if factorial==0 or factorial==1:
+    print('Yes')
+elif fact==factorial:
+    print("Yes")
+else:
+    print('No')
